@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+    background-image: url("headway-5QgIuuBxKwM-unsplash-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 80%;
+}
+
+.nav {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__list {
+    min-width: 100px;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.nav__list:first-of-type {
+    border: 1px lightgrey solid;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 12px 0;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.title {
+    margin: 2em 2em 0;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+}
+
+.text__summary {
+    display: none;
+}
+
+.search__form {
+    position: relative;
+    margin: 2em 5em;
+}
+
+label[class^="search__label"] {
+    position: absolute;
+    top: -2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+}
+
+input[class^="search__input"] {
+    padding: 12px;
+    margin-top: 14px;
+    margin-right: 10px;
+    border: 1px solid lightgrey;
+    font-size: 12px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.search__button {
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #440381;
+    color: white;
+    text-transform: uppercase;
+}
+
+.image {
+    display: none;
+}
