@@ -29,19 +29,19 @@ Fun challenge creating different layouts using the same HTML code and different 
 
 **stylesTwo.css**
 
-![Image of CSS One](https://octodex.github.com/images/yaktocat.png)
+![Image of CSS Two](completedScreenshots/CSS2.png)
 
 **stylesThree.css**
 
-![Image of CSS One](https://octodex.github.com/images/yaktocat.png)
+![Image of CSS Three](completedScreenshots/CSS3.png)
 
 **stylesFour.css**
 
-![Image of CSS One](https://octodex.github.com/images/yaktocat.png)
+![Image of CSS Four](completedScreenshots/CSS4.png)
 
 **stylesFive.css**
 
-![Image of CSS One](https://octodex.github.com/images/yaktocat.png)
+![Image of CSS Five](completedScreenshots/CSS5.png)
 
 **Photo Credit**
 
