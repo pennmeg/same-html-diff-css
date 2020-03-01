@@ -23,5 +23,5 @@ Fun challenge creating different layouts using the same HTML code and different 
 </div>
 ```
 
-### Photo Credit
+*Photo Credit*
 Headway on Unsplash
