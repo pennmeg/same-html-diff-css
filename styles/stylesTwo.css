@@ -1,84 +1,86 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/* TODO in order to make this work as intended (slide out or drop down menu) click events would need to be introduced. I would also make changes to the navigation for a11y concerns. */
+
 .nav {
-    margin: 0;
-    padding: 10px 1em;
-    list-style-type: none;
-    font-size: 42px;
-    color: #ED254E;
+  margin: 0;
+  padding: 10px 1em;
+  list-style-type: none;
+  font-size: 42px;
+  color: #ED254E;
 }
 
 .nav::before {
-    content: "≔"
+  content: "≔"
 }
 
 .nav__list {
-    display: none;
+  display: none;
 }
 
 .title {
-    margin: 1em 1.5em 0;
-    color: #011936 ;
-    font-family: Verdana, sans-serif;
-    font-size: 32px;
+  margin: 1em 1.5em 0;
+  color: #011936 ;
+  font-family: Verdana, sans-serif;
+  font-size: 32px;
 }
 
 .text__summary {
-    margin: 0.5em 3em;
-    max-width: 40vw;
-    color: #a7a7a7;
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
+  margin: 0.5em 3em;
+  max-width: 40vw;
+  color: #a7a7a7;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
 }
 
 .search__form {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 40%;
-    margin: 3em;
-    background-color: white;
-    border-radius: 32px;
-    font-family: Verdana, sans-serif;
-    box-shadow: 0px 0px 12px #d8d5d5
+  display: flex;
+  justify-content: flex-end;
+  max-width: 40%;
+  margin: 3em;
+  font-family: Verdana, sans-serif;
+  background-color: white;
+  border-radius: 32px;
+  box-shadow: 0px 0px 12px #d8d5d5
 }
 
 label[class^="search__label"] {
-    opacity: 0;
-    font-size: 1px;
+  font-size: 1px;
+  opacity: 0;
 }
 
 .search__label-2,
 .search__input-2 {
-    display: none;
+  display: none;
 }
 
 input[class^="search__input"] {
-    border: none;
-    font-size: 14px;
+  border: none;
+  font-size: 14px;
 }
 
 .search__input-1 {
-    width: 82%;
+  width: 82%;
 }
 
 .search__button {
-    padding: 12px;
-    border: none;
-    border-radius: 0 28px 28px 0;
-    font-size: 14px;
-    background-color: #011936;
-    color: white;
+  padding: 12px;
+  font-size: 14px;
+  background-color: #011936;
+  color: white;
+  border: none;
+  border-radius: 0 28px 28px 0;
 }
 
 .image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 600px;
-    height: 400px;
-    border-bottom-left-radius: 50px;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 400px;
+  border-bottom-left-radius: 50px;
+  z-index: -1;
 }
