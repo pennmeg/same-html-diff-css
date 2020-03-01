@@ -1,5 +1,5 @@
 # Same HTML, Different CSS
-Fun challenge creating different layouts using the same HTML code and different CSS. These layouts may not be the most performant or preferred way, and if this were a client/product page I would definitely make changes and/or additions for click events, responsiveness, functionality, accessibility, etc. This is simply intended as a fun and creative way to play with CSS, formatting, and page layout without adding in ~~10,000~~ extra ```<div>```s.
+Fun challenge creating different layouts using the same HTML code and different CSS. These layouts may not be the most performant or preferred way, and if this were a client/product page I would definitely make changes and/or additions for click events, responsiveness, functionality, accessibility, etc. This is simply intended as a fun and different way to play with CSS, formatting, and page layout without adding in ~~10,000~~ extra ```<div>```s.
 
 ## HTML
 
