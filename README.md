@@ -25,7 +25,7 @@ Fun challenge creating different layouts using the same HTML code and different 
 
 **stylesOne.css**
 
-![Image of CSS One](https://pennmeg.github.com/completedScreenshots/CSS1.png)
+![Image of CSS One](completedScreenshots/CSS1.png)
 
 **stylesTwo.css**
 
